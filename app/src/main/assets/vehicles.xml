@@ -1,0 +1,20 @@
+<vehicles>
+  <car>
+    <name>Honda Civic</name>
+    <fuelType>3</fuelType>
+  </car>
+  <motorboat>
+    <name>Super motorboat</name>
+    <fuelType>0</fuelType>
+  </motorboat>
+  <car>
+    <name>Mercedes CLK</name>
+    <fuelType>5</fuelType>
+  </car>
+  <bicycle>
+    <name>Giant</name>
+  </bicycle>
+  <scooter>
+    <name>Cool scooter</name>
+  </scooter>
+</vehicles>

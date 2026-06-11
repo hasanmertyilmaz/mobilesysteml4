@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editVehicleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_vehicle_id"
+        android:importantForAutofill="no"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_fuel_choice"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/checkDiesel" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" android:text="DIESEL" />
+        <CheckBox android:id="@+id/checkPetrol" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" android:text="PETROL" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox android:id="@+id/checkLpg" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" android:text="LPG" />
+        <CheckBox android:id="@+id/checkCng" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1" android:text="CNG" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editLiters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_liters"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal" />
+</LinearLayout>

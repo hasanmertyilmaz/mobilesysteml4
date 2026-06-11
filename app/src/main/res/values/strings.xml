@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vehicle Rental</string>
+
+    <string name="btn_park">Park</string>
+    <string name="btn_unpark">Unpark</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_refuel">Refuel</string>
+    <string name="btn_sort">Sort</string>
+
+    <string name="label_garages">Garages:</string>
+    <string name="label_fuels">Supported fuels (combustion vehicles only):</string>
+    <string name="label_fuel_choice">Fuel to add:</string>
+
+    <string name="hint_vehicle_id">Vehicle ID</string>
+    <string name="hint_garage_number">Garage number (1–5)</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_liters">Liters</string>
+    <string name="hint_initial_liters">Initial fuel in liters (optional)</string>
+
+    <string name="msg_ready">Ready.</string>
+    <string name="msg_loaded">Loaded %1$d vehicles from XML (%2$s).</string>
+    <string name="src_saved">saved file</string>
+    <string name="src_assets">initial assets database</string>
+    <string name="msg_load_failed">Failed to load XML: %1$s</string>
+    <string name="msg_save_failed">Failed to save XML: %1$s</string>
+    <string name="msg_sorted">Sorted: parked first, then Car &lt; Motorboat &lt; Bicycle &lt; Scooter, then name, fuel mask, fuel amount.</string>
+    <string name="msg_need_id_garage">Enter vehicle ID and garage number.</string>
+    <string name="msg_need_id">Enter vehicle ID.</string>
+    <string name="msg_need_name">Failure: name must not be empty.</string>
+    <string name="msg_need_id_liters">Enter vehicle ID and liters.</string>
+    <string name="msg_added">Added: %1$s</string>
+    <string name="msg_no_vehicle">Failure: no vehicle with ID %1$d.</string>
+    <string name="msg_not_combustion">Failure: vehicle [%1$d] is not a combustion vehicle.</string>
+    <string name="msg_refueled">Success: vehicle [%1$d] refueled, now %2$.1f l.</string>
+    <string name="msg_refuel_failed">Failure: fuel %1$s not supported (vehicle supports %2$s) or liters &lt;= 0.</string>
+
+    <string-array name="vehicle_types">
+        <item>Car</item>
+        <item>Motorboat</item>
+        <item>Bicycle</item>
+        <item>Scooter</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="2"
+        android:textColor="@color/primary_dark"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textGarages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/primary"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btnPark" style="@style/ActionButton" android:text="@string/btn_park" />
+        <Button android:id="@+id/btnAdd" style="@style/ActionButton" android:text="@string/btn_add" />
+        <Button android:id="@+id/btnRemove" style="@style/ActionButton" android:text="@string/btn_remove" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btnRefuel" style="@style/ActionButton" android:text="@string/btn_refuel" />
+        <Button android:id="@+id/btnSort" style="@style/ActionButton" android:text="@string/btn_sort" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listVehicles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="1" />
+</LinearLayout>
