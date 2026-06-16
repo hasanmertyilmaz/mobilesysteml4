@@ -1,5 +1,12 @@
 # Lab 4 — Interfaces: Vehicle Rental System (Android, Java)
 
+- **Course:** Introduction to Mobile Systems
+- **Lab number:** 4
+- **Student:** Hasan Yilmaz
+- **Student ID:** 56505
+
+**Description:** An object-oriented vehicle rental app (Java) built with an abstract `Vehicle` class, the `CombustionVehicle` and `Parkable` interfaces, inheritance and polymorphism. Vehicles are kept in an `ArrayList`, sorted with a multi-criteria comparator and persisted to XML, where fuel types are stored as an integer bitmask. The UI offers park/unpark, add, remove, refuel and sort operations with clear messages for every action.
+
 Object-oriented vehicle rental implemented with an abstract class, interfaces, inheritance, polymorphism, `ArrayList`, multi-criteria sorting and XML persistence. The Android UI (buttons + dialogs) is the equivalent of the console menu.
 
 ## Domain model — every type in its own source file

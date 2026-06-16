@@ -1,5 +1,11 @@
 package com.mertyilmaz.lab4;
 
+/*
+ * Introduction to Mobile Systems — Lab 4
+ * Student: Hasan Yilmaz
+ * Student ID: 56505
+ */
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
