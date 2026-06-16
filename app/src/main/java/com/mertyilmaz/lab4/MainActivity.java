@@ -1,9 +1,10 @@
 package com.mertyilmaz.lab4;
 
 /*
- * Introduction to Mobile Systems — Lab 4
- * Student: Hasan Yilmaz
+ * Name: Hasan Yilmaz
  * Student ID: 56505
+ * Lab: 4
+ * Course: Introduction to Mobile Systems
  */
 
 import android.os.Bundle;
